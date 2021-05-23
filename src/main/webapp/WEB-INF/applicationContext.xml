@@ -9,10 +9,10 @@
 
     <!--配置数据源 ，数据源交给springmvc管理 mybatis配置文件直接可以配在这里-->
     <bean id="datasource" class="com.alibaba.druid.pool.DruidDataSource">
-        <property name="driverClassName" value="com.mysql.cj.jdbc.Driver"/>
+        <property name="driverClassName" value="com.mysql.jdbc.Driver"/>
         <property name="username" value="root"/>
-        <property name="password" value="123456"/>
-        <property name="url" value="jdbc:mysql://localhost:3306/cxb"/>
+        <property name="password" value="KOzRh1r8zvf4A4bFF"/>
+        <property name="url" value="jdbc:mysql://localhost:3306/activemq"/>
     </bean>
 
     <!--
