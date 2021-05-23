@@ -15,7 +15,7 @@ public class MvcController {
     public String test() {
         return "hello spring mvc";
     }
-    @GetMapping
+    @GetMapping("/activemq")
     public Map test2() {
         return  mvcMapper.method();
     }
